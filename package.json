@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "update": "git pull origin master && npm i && pm2 restart wheatbackend"
+
   },
   "author": "",
   "license": "ISC",
